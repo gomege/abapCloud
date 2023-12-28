@@ -10,7 +10,8 @@ define table zstudenttable007 {
   fname         : zfname;
   lname         : zlname;
   mname         : zmname;
-  dob           : zde_nac;
   gender        : zgender;
+  birthdate     : abap.dats;
+  commnumber    : abap.int4;
 
 }
