@@ -1,0 +1,16 @@
+@EndUserText.label : 'ZSTUDENT_TABLE_G007'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #RESTRICTED
+define table zstudent_table {
+
+  key client    : abap.clnt not null;
+  key studentid : zstuid not null;
+  fname         : zfname;
+  lname         : zlname;
+  mname         : zmname;
+  dob           : zde_nac;
+  gender        : zgender;
+
+}
