@@ -1,9 +1,9 @@
-@EndUserText.label : 'ZSTUDENT_TABLE'
+@EndUserText.label : 'ZSTUDENT_TABLE-G007'
 @AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
 @AbapCatalog.tableCategory : #TRANSPARENT
 @AbapCatalog.deliveryClass : #A
 @AbapCatalog.dataMaintenance : #RESTRICTED
-define table zstudent_table {
+define table zstudenttable007 {
 
   key client    : abap.clnt not null;
   key studentid : zstuid not null;
