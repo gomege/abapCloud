@@ -1,4 +1,4 @@
-@EndUserText.label : 'ZSTUDENT_TABLE_G007'
+@EndUserText.label : 'ZSTUDENT_TABLE'
 @AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
 @AbapCatalog.tableCategory : #TRANSPARENT
 @AbapCatalog.deliveryClass : #A
