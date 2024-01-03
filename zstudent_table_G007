@@ -5,13 +5,18 @@
 @AbapCatalog.dataMaintenance : #RESTRICTED
 define table zstudenttable007 {
 
-  key client    : abap.clnt not null;
-  key studentid : zstuid not null;
-  fname         : zfname;
-  lname         : zlname;
-  mname         : zmname;
-  gender        : zgender;
-  birthdate     : abap.dats;
-  commnumber    : abap.int4;
+  key client            : abap.clnt not null;
+  key studentid         : abap.int4 not null;
+  fname                 : abap.char(40);
+  lname                 : abap.char(40);
+  mname                 : abap.char(40);
+  gender                : abap.char(1);
+  birthdate             : abap.dats;
+  commnumber            : abap.int4;
+  local_created_by      : abp_creation_user;
+  local_created_at      : abp_creation_tstmpl;
+  local_last_changed_by : abp_locinst_lastchange_user;
+  local_last_changed_at : abp_locinst_lastchange_tstmpl;
+  last_changed_at       : abp_lastchange_tstmpl;
 
 }
